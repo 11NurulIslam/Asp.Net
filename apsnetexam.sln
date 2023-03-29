@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsnetexam", "apsnetexam.csproj", "{E2EA4A1A-62B4-455F-BE07-B35159167265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2EA4A1A-62B4-455F-BE07-B35159167265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EA4A1A-62B4-455F-BE07-B35159167265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EA4A1A-62B4-455F-BE07-B35159167265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EA4A1A-62B4-455F-BE07-B35159167265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F66588-3D1E-4D35-8887-2AA4582FFAE4}
+	EndGlobalSection
+EndGlobal

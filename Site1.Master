@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="apsnetexam.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <asp:Image ID="Image1" runat="server" AlternateText="The image is unavailable" ImageUrl="~/images/chat.png" CssClass="img-thumbnail img-round" />
+                </div>
+                <div class="col-sm-9 text-center">
+                    <h1>IDB-BISEW</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand">BD Fish</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="WebForm1.aspx">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="WebForm2.aspx">CATEGORY Edit</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    Left Menu
+                </div>
+                <div class="col-sm-8">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    Advertisements
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
